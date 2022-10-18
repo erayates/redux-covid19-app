@@ -72,6 +72,7 @@ a{
   width: 250px;
   height: 270px;
   border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .card:first-child{
@@ -96,6 +97,7 @@ a{
 
 .card__footerTitle{
   margin-top: 1rem;
+  font-size: 0.8rem;
 }
 
 .card__country{
@@ -126,4 +128,13 @@ a{
 
 .select__country__dropdown > option{
   padding: 0.5rem 1rem;
+}
+
+/*************************
+      Chart Styles
+*************************/
+.chart__title{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
