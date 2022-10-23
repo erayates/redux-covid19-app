@@ -54,7 +54,7 @@ a{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .card__title{
@@ -73,6 +73,7 @@ a{
   height: 270px;
   border-radius: 0.3rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 1.5rem;
 }
 
 .card:first-child{
@@ -114,21 +115,21 @@ a{
 /***************************
     SelectCountry Styles
 ****************************/
-.select__country{
+.select__container{
+  display: flex;
+  justify-content: center;
+}
+
+select{
   margin-top: 5rem;
-  text-align: center;
-}
-
-.select__country__dropdown{
+  width: 75%;
+  padding: 1rem;
+  border: none;
   outline: none;
-  width: 40%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 0.3rem;
-  padding: 0.5rem 1rem;
 }
 
-.select__country__dropdown > option{
-  padding: 0.5rem 1rem;
-}
 
 /*************************
       Chart Styles
@@ -138,3 +139,9 @@ a{
   margin-top: 5rem;
   margin-bottom: 2rem;
 }
+
+.loading{
+  text-align: center;
+  margin-top: 5rem;
+}
+
